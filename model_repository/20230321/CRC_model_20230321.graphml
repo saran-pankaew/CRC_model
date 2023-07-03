@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="hiddenLabel" attr.type="string" for="node" id="hiddenLabel"/>
+    <key attr.name="canonicalName" attr.type="string" for="node" id="canonicalName"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="XGMML Edge Label" attr.type="string" for="edge" id="XGMML Edge Label"/>
+    <key attr.name="canonicalName" attr.type="string" for="edge" id="canonicalName"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="networkMetadata" attr.type="string" for="graph" id="networkMetadata"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="CRC_model_20230322">
+        <node id="1650">
+            <data key="SUID">1650</data>
+            <data key="shared name">PKMYT1</data>
+            <data key="name">PKMYT1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PKMYT1</data>
+        </node>
+        <node id="1646">
+            <data key="SUID">1646</data>
+            <data key="shared name">PLK1</data>
+            <data key="name">PLK1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PLK1</data>
+        </node>
+        <node id="1642">
+            <data key="SUID">1642</data>
+            <data key="shared name">DNA_repair</data>
+            <data key="name">DNA_repair</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">DNA_repair</data>
+        </node>
+        <node id="1638">
+            <data key="SUID">1638</data>
+            <data key="shared name">MYD88</data>
+            <data key="name">MYD88</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">MYD88</data>
+        </node>
+        <node id="1634">
+            <data key="SUID">1634</data>
+            <data key="shared name">IL1R1</data>
+            <data key="name">IL1R1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">IL1R1</data>
+        </node>
+        <node id="1630">
+            <data key="SUID">1630</data>
+            <data key="shared name">PDK1</data>
+            <data key="name">PDK1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PDK1</data>
+        </node>
+        <node id="1626">
+            <data key="SUID">1626</data>
+            <data key="shared name">FADD</data>
+            <data key="name">FADD</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">FADD</data>
+        </node>
+        <node id="1622">
+            <data key="SUID">1622</data>
+            <data key="shared name">IFNA</data>
+            <data key="name">IFNA</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">IFNA</data>
+        </node>
+        <node id="1618">
+            <data key="SUID">1618</data>
+            <data key="shared name">FOXO1</data>
+            <data key="name">FOXO1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">FOXO1</data>
+        </node>
+        <node id="1614">
+            <data key="SUID">1614</data>
+            <data key="shared name">BCL2L11</data>
+            <data key="name">BCL2L11</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">BCL2L11</data>
+        </node>
+        <node id="1610">
+            <data key="SUID">1610</data>
+            <data key="shared name">PTPN1</data>
+            <data key="name">PTPN1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PTPN1</data>
+        </node>
+        <node id="1606">
+            <data key="SUID">1606</data>
+            <data key="shared name">JAK</data>
+            <data key="name">JAK</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">JAK</data>
+        </node>
+        <node id="1602">
+            <data key="SUID">1602</data>
+            <data key="shared name">IL6</data>
+            <data key="name">IL6</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">IL6</data>
+        </node>
+        <node id="1598">
+            <data key="SUID">1598</data>
+            <data key="shared name">IKK</data>
+            <data key="name">IKK</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">IKK</data>
+        </node>
+        <node id="1594">
+            <data key="SUID">1594</data>
+            <data key="shared name">IRAK4</data>
+            <data key="name">IRAK4</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">IRAK4</data>
+        </node>
+        <node id="1590">
+            <data key="SUID">1590</data>
+            <data key="shared name">TNF</data>
+            <data key="name">TNF</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TNF</data>
+        </node>
+        <node id="1586">
+            <data key="SUID">1586</data>
+            <data key="shared name">JUN</data>
+            <data key="name">JUN</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">JUN</data>
+        </node>
+        <node id="1582">
+            <data key="SUID">1582</data>
+            <data key="shared name">bCAT</data>
+            <data key="name">bCAT</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">bCAT</data>
+        </node>
+        <node id="1578">
+            <data key="SUID">1578</data>
+            <data key="shared name">CDC6</data>
+            <data key="name">CDC6</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDC6</data>
+        </node>
+        <node id="1574">
+            <data key="SUID">1574</data>
+            <data key="shared name">SMAD4</data>
+            <data key="name">SMAD4</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMAD4</data>
+        </node>
+        <node id="1570">
+            <data key="SUID">1570</data>
+            <data key="shared name">TRAF6</data>
+            <data key="name">TRAF6</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TRAF6</data>
+        </node>
+        <node id="1566">
+            <data key="SUID">1566</data>
+            <data key="shared name">CASP8</data>
+            <data key="name">CASP8</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CASP8</data>
+        </node>
+        <node id="1562">
+            <data key="SUID">1562</data>
+            <data key="shared name">IkB</data>
+            <data key="name">IkB</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">IkB</data>
+        </node>
+        <node id="1558">
+            <data key="SUID">1558</data>
+            <data key="shared name">NLK</data>
+            <data key="name">NLK</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">NLK</data>
+        </node>
+        <node id="1554">
+            <data key="SUID">1554</data>
+            <data key="shared name">IFNAR</data>
+            <data key="name">IFNAR</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">IFNAR</data>
+        </node>
+        <node id="1550">
+            <data key="SUID">1550</data>
+            <data key="shared name">MTORC2</data>
+            <data key="name">MTORC2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">MTORC2</data>
+        </node>
+        <node id="1546">
+            <data key="SUID">1546</data>
+            <data key="shared name">PI3K</data>
+            <data key="name">PI3K</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PI3K</data>
+        </node>
+        <node id="1542">
+            <data key="SUID">1542</data>
+            <data key="shared name">S6</data>
+            <data key="name">S6</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">S6</data>
+        </node>
+        <node id="1538">
+            <data key="SUID">1538</data>
+            <data key="shared name">STAT3</data>
+            <data key="name">STAT3</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">STAT3</data>
+        </node>
+        <node id="1534">
+            <data key="SUID">1534</data>
+            <data key="shared name">CHUK</data>
+            <data key="name">CHUK</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CHUK</data>
+        </node>
+        <node id="1530">
+            <data key="SUID">1530</data>
+            <data key="shared name">GSK3B</data>
+            <data key="name">GSK3B</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">GSK3B</data>
+        </node>
+        <node id="1526">
+            <data key="SUID">1526</data>
+            <data key="shared name">p21</data>
+            <data key="name">p21</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">p21</data>
+        </node>
+        <node id="1522">
+            <data key="SUID">1522</data>
+            <data key="shared name">MTORC1</data>
+            <data key="name">MTORC1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">MTORC1</data>
+        </node>
+        <node id="1518">
+            <data key="SUID">1518</data>
+            <data key="shared name">AKT</data>
+            <data key="name">AKT</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">AKT</data>
+        </node>
+        <node id="1514">
+            <data key="SUID">1514</data>
+            <data key="shared name">JNK</data>
+            <data key="name">JNK</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">JNK</data>
+        </node>
+        <node id="1510">
+            <data key="SUID">1510</data>
+            <data key="shared name">Wnt</data>
+            <data key="name">Wnt</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">Wnt</data>
+        </node>
+        <node id="1506">
+            <data key="SUID">1506</data>
+            <data key="shared name">CDKN1A</data>
+            <data key="name">CDKN1A</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDKN1A</data>
+        </node>
+        <node id="1502">
+            <data key="SUID">1502</data>
+            <data key="shared name">MYC</data>
+            <data key="name">MYC</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">MYC</data>
+        </node>
+        <node id="1498">
+            <data key="SUID">1498</data>
+            <data key="shared name">CDK4_6</data>
+            <data key="name">CDK4_6</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDK4_6</data>
+        </node>
+        <node id="1494">
+            <data key="SUID">1494</data>
+            <data key="shared name">CDC25A</data>
+            <data key="name">CDC25A</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDC25A</data>
+        </node>
+        <node id="1490">
+            <data key="SUID">1490</data>
+            <data key="shared name">CHEK2</data>
+            <data key="name">CHEK2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CHEK2</data>
+        </node>
+        <node id="1486">
+            <data key="SUID">1486</data>
+            <data key="shared name">CDC25B_C</data>
+            <data key="name">CDC25B_C</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDC25B_C</data>
+        </node>
+        <node id="1482">
+            <data key="SUID">1482</data>
+            <data key="shared name">MK2</data>
+            <data key="name">MK2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">MK2</data>
+        </node>
+        <node id="1478">
+            <data key="SUID">1478</data>
+            <data key="shared name">CHEK1</data>
+            <data key="name">CHEK1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CHEK1</data>
+        </node>
+        <node id="1474">
+            <data key="SUID">1474</data>
+            <data key="shared name">TAK1</data>
+            <data key="name">TAK1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TAK1</data>
+        </node>
+        <node id="1470">
+            <data key="SUID">1470</data>
+            <data key="shared name">TP53</data>
+            <data key="name">TP53</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TP53</data>
+        </node>
+        <node id="1466">
+            <data key="SUID">1466</data>
+            <data key="shared name">p38</data>
+            <data key="name">p38</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">p38</data>
+        </node>
+        <node id="1462">
+            <data key="SUID">1462</data>
+            <data key="shared name">MEK_1_2</data>
+            <data key="name">MEK_1_2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">MEK_1_2</data>
+        </node>
+        <node id="1458">
+            <data key="SUID">1458</data>
+            <data key="shared name">ERK_1_2</data>
+            <data key="name">ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">ERK_1_2</data>
+        </node>
+        <node id="1454">
+            <data key="SUID">1454</data>
+            <data key="shared name">BRAF</data>
+            <data key="name">BRAF</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">BRAF</data>
+        </node>
+        <node id="1450">
+            <data key="SUID">1450</data>
+            <data key="shared name">SOS1</data>
+            <data key="name">SOS1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SOS1</data>
+        </node>
+        <node id="1446">
+            <data key="SUID">1446</data>
+            <data key="shared name">EGFR</data>
+            <data key="name">EGFR</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">EGFR</data>
+        </node>
+        <node id="1442">
+            <data key="SUID">1442</data>
+            <data key="shared name">RAS</data>
+            <data key="name">RAS</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">RAS</data>
+        </node>
+        <node id="1438">
+            <data key="SUID">1438</data>
+            <data key="shared name">DSB_SSB</data>
+            <data key="name">DSB_SSB</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">DSB_SSB</data>
+        </node>
+        <node id="1434">
+            <data key="SUID">1434</data>
+            <data key="shared name">TGFb</data>
+            <data key="name">TGFb</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TGFb</data>
+        </node>
+        <node id="1430">
+            <data key="SUID">1430</data>
+            <data key="shared name">EGF</data>
+            <data key="name">EGF</data>
+            <data key="selected">true</data>
+            <data key="canonicalName">EGF</data>
+        </node>
+        <node id="1426">
+            <data key="SUID">1426</data>
+            <data key="shared name">FGFR</data>
+            <data key="name">FGFR</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">FGFR</data>
+        </node>
+        <node id="1422">
+            <data key="SUID">1422</data>
+            <data key="shared name">Survival</data>
+            <data key="name">Survival</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">Survival</data>
+        </node>
+        <node id="1418">
+            <data key="SUID">1418</data>
+            <data key="shared name">LEF1</data>
+            <data key="name">LEF1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">LEF1</data>
+        </node>
+        <node id="1414">
+            <data key="SUID">1414</data>
+            <data key="shared name">NFkB</data>
+            <data key="name">NFkB</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">NFkB</data>
+        </node>
+        <node id="1410">
+            <data key="SUID">1410</data>
+            <data key="shared name">Mitotic_Catastrophe</data>
+            <data key="name">Mitotic_Catastrophe</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">Mitotic_Catastrophe</data>
+        </node>
+        <node id="1406">
+            <data key="SUID">1406</data>
+            <data key="shared name">RS</data>
+            <data key="name">RS</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">RS</data>
+        </node>
+        <node id="1402">
+            <data key="SUID">1402</data>
+            <data key="shared name">ATM</data>
+            <data key="name">ATM</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">ATM</data>
+        </node>
+        <node id="1398">
+            <data key="SUID">1398</data>
+            <data key="shared name">ATR</data>
+            <data key="name">ATR</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">ATR</data>
+        </node>
+        <node id="1394">
+            <data key="SUID">1394</data>
+            <data key="shared name">Apoptosis</data>
+            <data key="name">Apoptosis</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">Apoptosis</data>
+        </node>
+        <node id="1390">
+            <data key="SUID">1390</data>
+            <data key="shared name">BCL2</data>
+            <data key="name">BCL2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">BCL2</data>
+        </node>
+        <node id="1386">
+            <data key="SUID">1386</data>
+            <data key="shared name">CASP3</data>
+            <data key="name">CASP3</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CASP3</data>
+        </node>
+        <node id="1382">
+            <data key="SUID">1382</data>
+            <data key="shared name">Proliferation</data>
+            <data key="name">Proliferation</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">Proliferation</data>
+        </node>
+        <node id="1378">
+            <data key="SUID">1378</data>
+            <data key="shared name">CDK2</data>
+            <data key="name">CDK2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDK2</data>
+        </node>
+        <node id="1368">
+            <data key="SUID">1368</data>
+            <data key="shared name">CDK1</data>
+            <data key="name">CDK1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDK1</data>
+        </node>
+        <edge source="1650" target="1368">
+            <data key="SUID">1936</data>
+            <data key="shared name">CDK1 (inhibit) PKMYT1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDK1 (inhibit) PKMYT1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDK1 (inhibit) PKMYT1</data>
+            <data key="canonicalName">CDK1 (inhibit) PKMYT1</data>
+        </edge>
+        <edge source="1646" target="1650">
+            <data key="SUID">1832</data>
+            <data key="shared name">PKMYT1 (inhibit) PLK1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">PKMYT1 (inhibit) PLK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">PKMYT1 (inhibit) PLK1</data>
+            <data key="canonicalName">PKMYT1 (inhibit) PLK1</data>
+        </edge>
+        <edge source="1646" target="1478">
+            <data key="SUID">1828</data>
+            <data key="shared name">CHEK1 (inhibit) PLK1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CHEK1 (inhibit) PLK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CHEK1 (inhibit) PLK1</data>
+            <data key="canonicalName">CHEK1 (inhibit) PLK1</data>
+        </edge>
+        <edge source="1646" target="1490">
+            <data key="SUID">1824</data>
+            <data key="shared name">CHEK2 (activate) PLK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CHEK2 (activate) PLK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CHEK2 (activate) PLK1</data>
+            <data key="canonicalName">CHEK2 (activate) PLK1</data>
+        </edge>
+        <edge source="1646" target="1502">
+            <data key="SUID">1820</data>
+            <data key="shared name">MYC (activate) PLK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MYC (activate) PLK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MYC (activate) PLK1</data>
+            <data key="canonicalName">MYC (activate) PLK1</data>
+        </edge>
+        <edge source="1642" target="1438">
+            <data key="SUID">1676</data>
+            <data key="shared name">DSB_SSB (inhibit) DNA_repair</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">DSB_SSB (inhibit) DNA_repair</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">DSB_SSB (inhibit) DNA_repair</data>
+            <data key="canonicalName">DSB_SSB (inhibit) DNA_repair</data>
+        </edge>
+        <edge source="1638" target="1594">
+            <data key="SUID">2232</data>
+            <data key="shared name">IRAK4 (activate) MYD88</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">IRAK4 (activate) MYD88</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">IRAK4 (activate) MYD88</data>
+            <data key="canonicalName">IRAK4 (activate) MYD88</data>
+        </edge>
+        <edge source="1634" target="1638">
+            <data key="SUID">2228</data>
+            <data key="shared name">MYD88 (activate) IL1R1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MYD88 (activate) IL1R1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MYD88 (activate) IL1R1</data>
+            <data key="canonicalName">MYD88 (activate) IL1R1</data>
+        </edge>
+        <edge source="1630" target="1574">
+            <data key="SUID">1772</data>
+            <data key="shared name">SMAD4 (inhibit) PDK1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">SMAD4 (inhibit) PDK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">SMAD4 (inhibit) PDK1</data>
+            <data key="canonicalName">SMAD4 (inhibit) PDK1</data>
+        </edge>
+        <edge source="1626" target="1566">
+            <data key="SUID">2080</data>
+            <data key="shared name">CASP8 (activate) FADD</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CASP8 (activate) FADD</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CASP8 (activate) FADD</data>
+            <data key="canonicalName">CASP8 (activate) FADD</data>
+        </edge>
+        <edge source="1622" target="1554">
+            <data key="SUID">1840</data>
+            <data key="shared name">IFNAR (activate) IFNA</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">IFNAR (activate) IFNA</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">IFNAR (activate) IFNA</data>
+            <data key="canonicalName">IFNAR (activate) IFNA</data>
+        </edge>
+        <edge source="1618" target="1614">
+            <data key="SUID">2112</data>
+            <data key="shared name">BCL2L11 (activate) FOXO1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">BCL2L11 (activate) FOXO1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">BCL2L11 (activate) FOXO1</data>
+            <data key="canonicalName">BCL2L11 (activate) FOXO1</data>
+        </edge>
+        <edge source="1614" target="1390">
+            <data key="SUID">1932</data>
+            <data key="shared name">BCL2 (inhibit) BCL2L11</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">BCL2 (inhibit) BCL2L11</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">BCL2 (inhibit) BCL2L11</data>
+            <data key="canonicalName">BCL2 (inhibit) BCL2L11</data>
+        </edge>
+        <edge source="1610" target="1538">
+            <data key="SUID">1654</data>
+            <data key="shared name">STAT3 (inhibit) PTPN1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">STAT3 (inhibit) PTPN1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">STAT3 (inhibit) PTPN1</data>
+            <data key="canonicalName">STAT3 (inhibit) PTPN1</data>
+        </edge>
+        <edge source="1606" target="1538">
+            <data key="SUID">1732</data>
+            <data key="shared name">STAT3 (activate) JAK</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">STAT3 (activate) JAK</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">STAT3 (activate) JAK</data>
+            <data key="canonicalName">STAT3 (activate) JAK</data>
+        </edge>
+        <edge source="1602" target="1606">
+            <data key="SUID">1980</data>
+            <data key="shared name">JAK (activate) IL6</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">JAK (activate) IL6</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">JAK (activate) IL6</data>
+            <data key="canonicalName">JAK (activate) IL6</data>
+        </edge>
+        <edge source="1602" target="1450">
+            <data key="SUID">1976</data>
+            <data key="shared name">SOS1 (activate) IL6</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">SOS1 (activate) IL6</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">SOS1 (activate) IL6</data>
+            <data key="canonicalName">SOS1 (activate) IL6</data>
+        </edge>
+        <edge source="1598" target="1618">
+            <data key="SUID">1876</data>
+            <data key="shared name">FOXO1 (inhibit) IKK</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">FOXO1 (inhibit) IKK</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">FOXO1 (inhibit) IKK</data>
+            <data key="canonicalName">FOXO1 (inhibit) IKK</data>
+        </edge>
+        <edge source="1598" target="1562">
+            <data key="SUID">1872</data>
+            <data key="shared name">IkB (inhibit) IKK</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">IkB (inhibit) IKK</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">IkB (inhibit) IKK</data>
+            <data key="canonicalName">IkB (inhibit) IKK</data>
+        </edge>
+        <edge source="1594" target="1570">
+            <data key="SUID">2176</data>
+            <data key="shared name">TRAF6 (activate) IRAK4</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">TRAF6 (activate) IRAK4</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">TRAF6 (activate) IRAK4</data>
+            <data key="canonicalName">TRAF6 (activate) IRAK4</data>
+        </edge>
+        <edge source="1590" target="1626">
+            <data key="SUID">1928</data>
+            <data key="shared name">FADD (activate) TNF</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">FADD (activate) TNF</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">FADD (activate) TNF</data>
+            <data key="canonicalName">FADD (activate) TNF</data>
+        </edge>
+        <edge source="1590" target="1570">
+            <data key="SUID">1924</data>
+            <data key="shared name">TRAF6 (activate) TNF</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">TRAF6 (activate) TNF</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">TRAF6 (activate) TNF</data>
+            <data key="canonicalName">TRAF6 (activate) TNF</data>
+        </edge>
+        <edge source="1582" target="1418">
+            <data key="SUID">2152</data>
+            <data key="shared name">LEF1 (activate) bCAT</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">LEF1 (activate) bCAT</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">LEF1 (activate) bCAT</data>
+            <data key="canonicalName">LEF1 (activate) bCAT</data>
+        </edge>
+        <edge source="1578" target="1406">
+            <data key="SUID">2224</data>
+            <data key="shared name">RS (activate) CDC6</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">RS (activate) CDC6</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">RS (activate) CDC6</data>
+            <data key="canonicalName">RS (activate) CDC6</data>
+        </edge>
+        <edge source="1574" target="1506">
+            <data key="SUID">1868</data>
+            <data key="shared name">CDKN1A (activate) SMAD4</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDKN1A (activate) SMAD4</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDKN1A (activate) SMAD4</data>
+            <data key="canonicalName">CDKN1A (activate) SMAD4</data>
+        </edge>
+        <edge source="1574" target="1502">
+            <data key="SUID">1864</data>
+            <data key="shared name">MYC (inhibit) SMAD4</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">MYC (inhibit) SMAD4</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">MYC (inhibit) SMAD4</data>
+            <data key="canonicalName">MYC (inhibit) SMAD4</data>
+        </edge>
+        <edge source="1574" target="1418">
+            <data key="SUID">1860</data>
+            <data key="shared name">LEF1 (activate) SMAD4</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">LEF1 (activate) SMAD4</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">LEF1 (activate) SMAD4</data>
+            <data key="canonicalName">LEF1 (activate) SMAD4</data>
+        </edge>
+        <edge source="1570" target="1474">
+            <data key="SUID">2260</data>
+            <data key="shared name">TAK1 (activate) TRAF6</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">TAK1 (activate) TRAF6</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">TAK1 (activate) TRAF6</data>
+            <data key="canonicalName">TAK1 (activate) TRAF6</data>
+        </edge>
+        <edge source="1566" target="1386">
+            <data key="SUID">1836</data>
+            <data key="shared name">CASP3 (activate) CASP8</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CASP3 (activate) CASP8</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CASP3 (activate) CASP8</data>
+            <data key="canonicalName">CASP3 (activate) CASP8</data>
+        </edge>
+        <edge source="1562" target="1562">
+            <data key="SUID">2076</data>
+            <data key="shared name">IkB (activate) IkB</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">IkB (activate) IkB</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">IkB (activate) IkB</data>
+            <data key="canonicalName">IkB (activate) IkB</data>
+        </edge>
+        <edge source="1562" target="1414">
+            <data key="SUID">2072</data>
+            <data key="shared name">NFkB (inhibit) IkB</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">NFkB (inhibit) IkB</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">NFkB (inhibit) IkB</data>
+            <data key="canonicalName">NFkB (inhibit) IkB</data>
+        </edge>
+        <edge source="1558" target="1418">
+            <data key="SUID">1920</data>
+            <data key="shared name">LEF1 (inhibit) NLK</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">LEF1 (inhibit) NLK</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">LEF1 (inhibit) NLK</data>
+            <data key="canonicalName">LEF1 (inhibit) NLK</data>
+        </edge>
+        <edge source="1558" target="1414">
+            <data key="SUID">1916</data>
+            <data key="shared name">NFkB (activate) NLK</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">NFkB (activate) NLK</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">NFkB (activate) NLK</data>
+            <data key="canonicalName">NFkB (activate) NLK</data>
+        </edge>
+        <edge source="1554" target="1606">
+            <data key="SUID">1672</data>
+            <data key="shared name">JAK (activate) IFNAR</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">JAK (activate) IFNAR</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">JAK (activate) IFNAR</data>
+            <data key="canonicalName">JAK (activate) IFNAR</data>
+        </edge>
+        <edge source="1554" target="1546">
+            <data key="SUID">1668</data>
+            <data key="shared name">PI3K (activate) IFNAR</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PI3K (activate) IFNAR</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PI3K (activate) IFNAR</data>
+            <data key="canonicalName">PI3K (activate) IFNAR</data>
+        </edge>
+        <edge source="1550" target="1518">
+            <data key="SUID">2220</data>
+            <data key="shared name">AKT (activate) MTORC2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">AKT (activate) MTORC2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">AKT (activate) MTORC2</data>
+            <data key="canonicalName">AKT (activate) MTORC2</data>
+        </edge>
+        <edge source="1546" target="1630">
+            <data key="SUID">1888</data>
+            <data key="shared name">PDK1 (activate) PI3K</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PDK1 (activate) PI3K</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PDK1 (activate) PI3K</data>
+            <data key="canonicalName">PDK1 (activate) PI3K</data>
+        </edge>
+        <edge source="1546" target="1550">
+            <data key="SUID">1884</data>
+            <data key="shared name">MTORC2 (activate) PI3K</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MTORC2 (activate) PI3K</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MTORC2 (activate) PI3K</data>
+            <data key="canonicalName">MTORC2 (activate) PI3K</data>
+        </edge>
+        <edge source="1546" target="1518">
+            <data key="SUID">1880</data>
+            <data key="shared name">AKT (activate) PI3K</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">AKT (activate) PI3K</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">AKT (activate) PI3K</data>
+            <data key="canonicalName">AKT (activate) PI3K</data>
+        </edge>
+        <edge source="1542" target="1550">
+            <data key="SUID">2264</data>
+            <data key="shared name">MTORC2 (inhibit) S6</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">MTORC2 (inhibit) S6</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">MTORC2 (inhibit) S6</data>
+            <data key="canonicalName">MTORC2 (inhibit) S6</data>
+        </edge>
+        <edge source="1538" target="1498">
+            <data key="SUID">1664</data>
+            <data key="shared name">CDK4_6 (activate) STAT3</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK4_6 (activate) STAT3</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK4_6 (activate) STAT3</data>
+            <data key="canonicalName">CDK4_6 (activate) STAT3</data>
+        </edge>
+        <edge source="1534" target="1498">
+            <data key="SUID">2216</data>
+            <data key="shared name">CDK4_6 (inhibit) CHUK</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDK4_6 (inhibit) CHUK</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDK4_6 (inhibit) CHUK</data>
+            <data key="canonicalName">CDK4_6 (inhibit) CHUK</data>
+        </edge>
+        <edge source="1534" target="1414">
+            <data key="SUID">2212</data>
+            <data key="shared name">NFkB (inhibit) CHUK</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">NFkB (inhibit) CHUK</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">NFkB (inhibit) CHUK</data>
+            <data key="canonicalName">NFkB (inhibit) CHUK</data>
+        </edge>
+        <edge source="1530" target="1586">
+            <data key="SUID">1760</data>
+            <data key="shared name">JUN (inhibit) GSK3B</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">JUN (inhibit) GSK3B</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">JUN (inhibit) GSK3B</data>
+            <data key="canonicalName">JUN (inhibit) GSK3B</data>
+        </edge>
+        <edge source="1530" target="1582">
+            <data key="SUID">1756</data>
+            <data key="shared name">bCAT (inhibit) GSK3B</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">bCAT (inhibit) GSK3B</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">bCAT (inhibit) GSK3B</data>
+            <data key="canonicalName">bCAT (inhibit) GSK3B</data>
+        </edge>
+        <edge source="1530" target="1498">
+            <data key="SUID">1752</data>
+            <data key="shared name">CDK4_6 (inhibit) GSK3B</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDK4_6 (inhibit) GSK3B</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDK4_6 (inhibit) GSK3B</data>
+            <data key="canonicalName">CDK4_6 (inhibit) GSK3B</data>
+        </edge>
+        <edge source="1530" target="1414">
+            <data key="SUID">1748</data>
+            <data key="shared name">NFkB (activate) GSK3B</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">NFkB (activate) GSK3B</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">NFkB (activate) GSK3B</data>
+            <data key="canonicalName">NFkB (activate) GSK3B</data>
+        </edge>
+        <edge source="1526" target="1378">
+            <data key="SUID">1984</data>
+            <data key="shared name">CDK2 (inhibit) p21</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDK2 (inhibit) p21</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDK2 (inhibit) p21</data>
+            <data key="canonicalName">CDK2 (inhibit) p21</data>
+        </edge>
+        <edge source="1522" target="1542">
+            <data key="SUID">1816</data>
+            <data key="shared name">S6 (activate) MTORC1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">S6 (activate) MTORC1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">S6 (activate) MTORC1</data>
+            <data key="canonicalName">S6 (activate) MTORC1</data>
+        </edge>
+        <edge source="1522" target="1538">
+            <data key="SUID">1812</data>
+            <data key="shared name">STAT3 (activate) MTORC1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">STAT3 (activate) MTORC1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">STAT3 (activate) MTORC1</data>
+            <data key="canonicalName">STAT3 (activate) MTORC1</data>
+        </edge>
+        <edge source="1518" target="1618">
+            <data key="SUID">2148</data>
+            <data key="shared name">FOXO1 (inhibit) AKT</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">FOXO1 (inhibit) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">FOXO1 (inhibit) AKT</data>
+            <data key="canonicalName">FOXO1 (inhibit) AKT</data>
+        </edge>
+        <edge source="1518" target="1534">
+            <data key="SUID">2144</data>
+            <data key="shared name">CHUK (activate) AKT</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CHUK (activate) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CHUK (activate) AKT</data>
+            <data key="canonicalName">CHUK (activate) AKT</data>
+        </edge>
+        <edge source="1518" target="1530">
+            <data key="SUID">2140</data>
+            <data key="shared name">GSK3B (inhibit) AKT</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">GSK3B (inhibit) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">GSK3B (inhibit) AKT</data>
+            <data key="canonicalName">GSK3B (inhibit) AKT</data>
+        </edge>
+        <edge source="1518" target="1526">
+            <data key="SUID">2136</data>
+            <data key="shared name">p21 (inhibit) AKT</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">p21 (inhibit) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">p21 (inhibit) AKT</data>
+            <data key="canonicalName">p21 (inhibit) AKT</data>
+        </edge>
+        <edge source="1518" target="1522">
+            <data key="SUID">2132</data>
+            <data key="shared name">MTORC1 (activate) AKT</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MTORC1 (activate) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MTORC1 (activate) AKT</data>
+            <data key="canonicalName">MTORC1 (activate) AKT</data>
+        </edge>
+        <edge source="1518" target="1502">
+            <data key="SUID">2128</data>
+            <data key="shared name">MYC (activate) AKT</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MYC (activate) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MYC (activate) AKT</data>
+            <data key="canonicalName">MYC (activate) AKT</data>
+        </edge>
+        <edge source="1518" target="1470">
+            <data key="SUID">2124</data>
+            <data key="shared name">TP53 (inhibit) AKT</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">TP53 (inhibit) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">TP53 (inhibit) AKT</data>
+            <data key="canonicalName">TP53 (inhibit) AKT</data>
+        </edge>
+        <edge source="1518" target="1414">
+            <data key="SUID">2120</data>
+            <data key="shared name">NFkB (activate) AKT</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">NFkB (activate) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">NFkB (activate) AKT</data>
+            <data key="canonicalName">NFkB (activate) AKT</data>
+        </edge>
+        <edge source="1518" target="1386">
+            <data key="SUID">2116</data>
+            <data key="shared name">CASP3 (inhibit) AKT</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CASP3 (inhibit) AKT</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CASP3 (inhibit) AKT</data>
+            <data key="canonicalName">CASP3 (inhibit) AKT</data>
+        </edge>
+        <edge source="1514" target="1650">
+            <data key="SUID">1808</data>
+            <data key="shared name">PKMYT1 (activate) JNK</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PKMYT1 (activate) JNK</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PKMYT1 (activate) JNK</data>
+            <data key="canonicalName">PKMYT1 (activate) JNK</data>
+        </edge>
+        <edge source="1514" target="1586">
+            <data key="SUID">1804</data>
+            <data key="shared name">JUN (activate) JNK</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">JUN (activate) JNK</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">JUN (activate) JNK</data>
+            <data key="canonicalName">JUN (activate) JNK</data>
+        </edge>
+        <edge source="1514" target="1538">
+            <data key="SUID">1800</data>
+            <data key="shared name">STAT3 (activate) JNK</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">STAT3 (activate) JNK</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">STAT3 (activate) JNK</data>
+            <data key="canonicalName">STAT3 (activate) JNK</data>
+        </edge>
+        <edge source="1514" target="1390">
+            <data key="SUID">1796</data>
+            <data key="shared name">BCL2 (activate) JNK</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">BCL2 (activate) JNK</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">BCL2 (activate) JNK</data>
+            <data key="canonicalName">BCL2 (activate) JNK</data>
+        </edge>
+        <edge source="1510" target="1582">
+            <data key="SUID">2040</data>
+            <data key="shared name">bCAT (activate) Wnt</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">bCAT (activate) Wnt</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">bCAT (activate) Wnt</data>
+            <data key="canonicalName">bCAT (activate) Wnt</data>
+        </edge>
+        <edge source="1510" target="1514">
+            <data key="SUID">2036</data>
+            <data key="shared name">JNK (activate) Wnt</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">JNK (activate) Wnt</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">JNK (activate) Wnt</data>
+            <data key="canonicalName">JNK (activate) Wnt</data>
+        </edge>
+        <edge source="1510" target="1474">
+            <data key="SUID">2032</data>
+            <data key="shared name">TAK1 (activate) Wnt</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">TAK1 (activate) Wnt</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">TAK1 (activate) Wnt</data>
+            <data key="canonicalName">TAK1 (activate) Wnt</data>
+        </edge>
+        <edge source="1506" target="1378">
+            <data key="SUID">1792</data>
+            <data key="shared name">CDK2 (inhibit) CDKN1A</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDK2 (inhibit) CDKN1A</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDK2 (inhibit) CDKN1A</data>
+            <data key="canonicalName">CDK2 (inhibit) CDKN1A</data>
+        </edge>
+        <edge source="1502" target="1378">
+            <data key="SUID">2208</data>
+            <data key="shared name">CDK2 (activate) MYC</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK2 (activate) MYC</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK2 (activate) MYC</data>
+            <data key="canonicalName">CDK2 (activate) MYC</data>
+        </edge>
+        <edge source="1502" target="1526">
+            <data key="SUID">2204</data>
+            <data key="shared name">p21 (inhibit) MYC</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">p21 (inhibit) MYC</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">p21 (inhibit) MYC</data>
+            <data key="canonicalName">p21 (inhibit) MYC</data>
+        </edge>
+        <edge source="1502" target="1498">
+            <data key="SUID">2200</data>
+            <data key="shared name">CDK4_6 (activate) MYC</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK4_6 (activate) MYC</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK4_6 (activate) MYC</data>
+            <data key="canonicalName">CDK4_6 (activate) MYC</data>
+        </edge>
+        <edge source="1502" target="1578">
+            <data key="SUID">2196</data>
+            <data key="shared name">CDC6 (activate) MYC</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDC6 (activate) MYC</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDC6 (activate) MYC</data>
+            <data key="canonicalName">CDC6 (activate) MYC</data>
+        </edge>
+        <edge source="1502" target="1506">
+            <data key="SUID">2192</data>
+            <data key="shared name">CDKN1A (inhibit) MYC</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDKN1A (inhibit) MYC</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDKN1A (inhibit) MYC</data>
+            <data key="canonicalName">CDKN1A (inhibit) MYC</data>
+        </edge>
+        <edge source="1502" target="1502">
+            <data key="SUID">2188</data>
+            <data key="shared name">MYC (activate) MYC</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MYC (activate) MYC</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MYC (activate) MYC</data>
+            <data key="canonicalName">MYC (activate) MYC</data>
+        </edge>
+        <edge source="1498" target="1378">
+            <data key="SUID">2108</data>
+            <data key="shared name">CDK2 (activate) CDK4_6</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK2 (activate) CDK4_6</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK2 (activate) CDK4_6</data>
+            <data key="canonicalName">CDK2 (activate) CDK4_6</data>
+        </edge>
+        <edge source="1494" target="1378">
+            <data key="SUID">1768</data>
+            <data key="shared name">CDK2 (activate) CDC25A</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK2 (activate) CDC25A</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK2 (activate) CDC25A</data>
+            <data key="canonicalName">CDK2 (activate) CDC25A</data>
+        </edge>
+        <edge source="1494" target="1368">
+            <data key="SUID">1764</data>
+            <data key="shared name">CDK1 (activate) CDC25A</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK1 (activate) CDC25A</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK1 (activate) CDC25A</data>
+            <data key="canonicalName">CDK1 (activate) CDC25A</data>
+        </edge>
+        <edge source="1490" target="1494">
+            <data key="SUID">2008</data>
+            <data key="shared name">CDC25A (inhibit) CHEK2</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDC25A (inhibit) CHEK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDC25A (inhibit) CHEK2</data>
+            <data key="canonicalName">CDC25A (inhibit) CHEK2</data>
+        </edge>
+        <edge source="1490" target="1470">
+            <data key="SUID">2004</data>
+            <data key="shared name">TP53 (activate) CHEK2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">TP53 (activate) CHEK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">TP53 (activate) CHEK2</data>
+            <data key="canonicalName">TP53 (activate) CHEK2</data>
+        </edge>
+        <edge source="1486" target="1368">
+            <data key="SUID">2028</data>
+            <data key="shared name">CDK1 (activate) CDC25B_C</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK1 (activate) CDC25B_C</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK1 (activate) CDC25B_C</data>
+            <data key="canonicalName">CDK1 (activate) CDC25B_C</data>
+        </edge>
+        <edge source="1482" target="1494">
+            <data key="SUID">1728</data>
+            <data key="shared name">CDC25A (inhibit) MK2</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDC25A (inhibit) MK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDC25A (inhibit) MK2</data>
+            <data key="canonicalName">CDC25A (inhibit) MK2</data>
+        </edge>
+        <edge source="1482" target="1646">
+            <data key="SUID">1724</data>
+            <data key="shared name">PLK1 (activate) MK2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PLK1 (activate) MK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PLK1 (activate) MK2</data>
+            <data key="canonicalName">PLK1 (activate) MK2</data>
+        </edge>
+        <edge source="1482" target="1486">
+            <data key="SUID">1720</data>
+            <data key="shared name">CDC25B_C (inhibit) MK2</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDC25B_C (inhibit) MK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDC25B_C (inhibit) MK2</data>
+            <data key="canonicalName">CDC25B_C (inhibit) MK2</data>
+        </edge>
+        <edge source="1478" target="1494">
+            <data key="SUID">2256</data>
+            <data key="shared name">CDC25A (inhibit) CHEK1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDC25A (inhibit) CHEK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDC25A (inhibit) CHEK1</data>
+            <data key="canonicalName">CDC25A (inhibit) CHEK1</data>
+        </edge>
+        <edge source="1478" target="1486">
+            <data key="SUID">2252</data>
+            <data key="shared name">CDC25B_C (inhibit) CHEK1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CDC25B_C (inhibit) CHEK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CDC25B_C (inhibit) CHEK1</data>
+            <data key="canonicalName">CDC25B_C (inhibit) CHEK1</data>
+        </edge>
+        <edge source="1478" target="1470">
+            <data key="SUID">2248</data>
+            <data key="shared name">TP53 (activate) CHEK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">TP53 (activate) CHEK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">TP53 (activate) CHEK1</data>
+            <data key="canonicalName">TP53 (activate) CHEK1</data>
+        </edge>
+        <edge source="1478" target="1406">
+            <data key="SUID">2244</data>
+            <data key="shared name">RS (inhibit) CHEK1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">RS (inhibit) CHEK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">RS (inhibit) CHEK1</data>
+            <data key="canonicalName">RS (inhibit) CHEK1</data>
+        </edge>
+        <edge source="1474" target="1598">
+            <data key="SUID">1972</data>
+            <data key="shared name">IKK (activate) TAK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">IKK (activate) TAK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">IKK (activate) TAK1</data>
+            <data key="canonicalName">IKK (activate) TAK1</data>
+        </edge>
+        <edge source="1474" target="1558">
+            <data key="SUID">1968</data>
+            <data key="shared name">NLK (activate) TAK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">NLK (activate) TAK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">NLK (activate) TAK1</data>
+            <data key="canonicalName">NLK (activate) TAK1</data>
+        </edge>
+        <edge source="1474" target="1534">
+            <data key="SUID">1964</data>
+            <data key="shared name">CHUK (inhibit) TAK1</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CHUK (inhibit) TAK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CHUK (inhibit) TAK1</data>
+            <data key="canonicalName">CHUK (inhibit) TAK1</data>
+        </edge>
+        <edge source="1474" target="1514">
+            <data key="SUID">1960</data>
+            <data key="shared name">JNK (activate) TAK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">JNK (activate) TAK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">JNK (activate) TAK1</data>
+            <data key="canonicalName">JNK (activate) TAK1</data>
+        </edge>
+        <edge source="1474" target="1466">
+            <data key="SUID">1956</data>
+            <data key="shared name">p38 (activate) TAK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">p38 (activate) TAK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">p38 (activate) TAK1</data>
+            <data key="canonicalName">p38 (activate) TAK1</data>
+        </edge>
+        <edge source="1470" target="1642">
+            <data key="SUID">1912</data>
+            <data key="shared name">DNA_repair (activate) TP53</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">DNA_repair (activate) TP53</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">DNA_repair (activate) TP53</data>
+            <data key="canonicalName">DNA_repair (activate) TP53</data>
+        </edge>
+        <edge source="1470" target="1526">
+            <data key="SUID">1908</data>
+            <data key="shared name">p21 (activate) TP53</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">p21 (activate) TP53</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">p21 (activate) TP53</data>
+            <data key="canonicalName">p21 (activate) TP53</data>
+        </edge>
+        <edge source="1470" target="1518">
+            <data key="SUID">1904</data>
+            <data key="shared name">AKT (inhibit) TP53</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">AKT (inhibit) TP53</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">AKT (inhibit) TP53</data>
+            <data key="canonicalName">AKT (inhibit) TP53</data>
+        </edge>
+        <edge source="1470" target="1506">
+            <data key="SUID">1900</data>
+            <data key="shared name">CDKN1A (activate) TP53</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDKN1A (activate) TP53</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDKN1A (activate) TP53</data>
+            <data key="canonicalName">CDKN1A (activate) TP53</data>
+        </edge>
+        <edge source="1470" target="1466">
+            <data key="SUID">1896</data>
+            <data key="shared name">p38 (inhibit) TP53</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">p38 (inhibit) TP53</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">p38 (inhibit) TP53</data>
+            <data key="canonicalName">p38 (inhibit) TP53</data>
+        </edge>
+        <edge source="1470" target="1386">
+            <data key="SUID">1892</data>
+            <data key="shared name">CASP3 (activate) TP53</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CASP3 (activate) TP53</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CASP3 (activate) TP53</data>
+            <data key="canonicalName">CASP3 (activate) TP53</data>
+        </edge>
+        <edge source="1466" target="1530">
+            <data key="SUID">2104</data>
+            <data key="shared name">GSK3B (inhibit) p38</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">GSK3B (inhibit) p38</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">GSK3B (inhibit) p38</data>
+            <data key="canonicalName">GSK3B (inhibit) p38</data>
+        </edge>
+        <edge source="1466" target="1514">
+            <data key="SUID">2100</data>
+            <data key="shared name">JNK (inhibit) p38</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">JNK (inhibit) p38</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">JNK (inhibit) p38</data>
+            <data key="canonicalName">JNK (inhibit) p38</data>
+        </edge>
+        <edge source="1466" target="1498">
+            <data key="SUID">2096</data>
+            <data key="shared name">CDK4_6 (activate) p38</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK4_6 (activate) p38</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK4_6 (activate) p38</data>
+            <data key="canonicalName">CDK4_6 (activate) p38</data>
+        </edge>
+        <edge source="1466" target="1482">
+            <data key="SUID">2092</data>
+            <data key="shared name">MK2 (activate) p38</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MK2 (activate) p38</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MK2 (activate) p38</data>
+            <data key="canonicalName">MK2 (activate) p38</data>
+        </edge>
+        <edge source="1466" target="1458">
+            <data key="SUID">2088</data>
+            <data key="shared name">ERK_1_2 (inhibit) p38</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">ERK_1_2 (inhibit) p38</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">ERK_1_2 (inhibit) p38</data>
+            <data key="canonicalName">ERK_1_2 (inhibit) p38</data>
+        </edge>
+        <edge source="1466" target="1386">
+            <data key="SUID">2084</data>
+            <data key="shared name">CASP3 (inhibit) p38</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">CASP3 (inhibit) p38</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">CASP3 (inhibit) p38</data>
+            <data key="canonicalName">CASP3 (inhibit) p38</data>
+        </edge>
+        <edge source="1462" target="1466">
+            <data key="SUID">1716</data>
+            <data key="shared name">p38 (activate) MEK_1_2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">p38 (activate) MEK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">p38 (activate) MEK_1_2</data>
+            <data key="canonicalName">p38 (activate) MEK_1_2</data>
+        </edge>
+        <edge source="1462" target="1458">
+            <data key="SUID">1712</data>
+            <data key="shared name">ERK_1_2 (activate) MEK_1_2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">ERK_1_2 (activate) MEK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">ERK_1_2 (activate) MEK_1_2</data>
+            <data key="canonicalName">ERK_1_2 (activate) MEK_1_2</data>
+        </edge>
+        <edge source="1458" target="1586">
+            <data key="SUID">2068</data>
+            <data key="shared name">JUN (activate) ERK_1_2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">JUN (activate) ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">JUN (activate) ERK_1_2</data>
+            <data key="canonicalName">JUN (activate) ERK_1_2</data>
+        </edge>
+        <edge source="1458" target="1574">
+            <data key="SUID">2064</data>
+            <data key="shared name">SMAD4 (activate) ERK_1_2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">SMAD4 (activate) ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">SMAD4 (activate) ERK_1_2</data>
+            <data key="canonicalName">SMAD4 (activate) ERK_1_2</data>
+        </edge>
+        <edge source="1458" target="1514">
+            <data key="SUID">2060</data>
+            <data key="shared name">JNK (activate) ERK_1_2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">JNK (activate) ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">JNK (activate) ERK_1_2</data>
+            <data key="canonicalName">JNK (activate) ERK_1_2</data>
+        </edge>
+        <edge source="1458" target="1502">
+            <data key="SUID">2056</data>
+            <data key="shared name">MYC (activate) ERK_1_2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MYC (activate) ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MYC (activate) ERK_1_2</data>
+            <data key="canonicalName">MYC (activate) ERK_1_2</data>
+        </edge>
+        <edge source="1458" target="1454">
+            <data key="SUID">2052</data>
+            <data key="shared name">BRAF (inhibit) ERK_1_2</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">BRAF (inhibit) ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">BRAF (inhibit) ERK_1_2</data>
+            <data key="canonicalName">BRAF (inhibit) ERK_1_2</data>
+        </edge>
+        <edge source="1458" target="1446">
+            <data key="SUID">2048</data>
+            <data key="shared name">EGFR (inhibit) ERK_1_2</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">EGFR (inhibit) ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">EGFR (inhibit) ERK_1_2</data>
+            <data key="canonicalName">EGFR (inhibit) ERK_1_2</data>
+        </edge>
+        <edge source="1458" target="1390">
+            <data key="SUID">2044</data>
+            <data key="shared name">BCL2 (activate) ERK_1_2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">BCL2 (activate) ERK_1_2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">BCL2 (activate) ERK_1_2</data>
+            <data key="canonicalName">BCL2 (activate) ERK_1_2</data>
+        </edge>
+        <edge source="1454" target="1578">
+            <data key="SUID">1744</data>
+            <data key="shared name">CDC6 (activate) BRAF</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDC6 (activate) BRAF</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDC6 (activate) BRAF</data>
+            <data key="canonicalName">CDC6 (activate) BRAF</data>
+        </edge>
+        <edge source="1454" target="1462">
+            <data key="SUID">1740</data>
+            <data key="shared name">MEK_1_2 (activate) BRAF</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MEK_1_2 (activate) BRAF</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MEK_1_2 (activate) BRAF</data>
+            <data key="canonicalName">MEK_1_2 (activate) BRAF</data>
+        </edge>
+        <edge source="1454" target="1454">
+            <data key="SUID">1736</data>
+            <data key="shared name">BRAF (activate) BRAF</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">BRAF (activate) BRAF</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">BRAF (activate) BRAF</data>
+            <data key="canonicalName">BRAF (activate) BRAF</data>
+        </edge>
+        <edge source="1450" target="1442">
+            <data key="SUID">1848</data>
+            <data key="shared name">RAS (activate) SOS1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">RAS (activate) SOS1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">RAS (activate) SOS1</data>
+            <data key="canonicalName">RAS (activate) SOS1</data>
+        </edge>
+        <edge source="1446" target="1610">
+            <data key="SUID">2024</data>
+            <data key="shared name">PTPN1 (activate) EGFR</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PTPN1 (activate) EGFR</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PTPN1 (activate) EGFR</data>
+            <data key="canonicalName">PTPN1 (activate) EGFR</data>
+        </edge>
+        <edge source="1446" target="1546">
+            <data key="SUID">2020</data>
+            <data key="shared name">PI3K (activate) EGFR</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PI3K (activate) EGFR</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PI3K (activate) EGFR</data>
+            <data key="canonicalName">PI3K (activate) EGFR</data>
+        </edge>
+        <edge source="1446" target="1442">
+            <data key="SUID">2016</data>
+            <data key="shared name">RAS (activate) EGFR</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">RAS (activate) EGFR</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">RAS (activate) EGFR</data>
+            <data key="canonicalName">RAS (activate) EGFR</data>
+        </edge>
+        <edge source="1442" target="1578">
+            <data key="SUID">1788</data>
+            <data key="shared name">CDC6 (activate) RAS</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDC6 (activate) RAS</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDC6 (activate) RAS</data>
+            <data key="canonicalName">CDC6 (activate) RAS</data>
+        </edge>
+        <edge source="1442" target="1546">
+            <data key="SUID">1784</data>
+            <data key="shared name">PI3K (activate) RAS</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PI3K (activate) RAS</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PI3K (activate) RAS</data>
+            <data key="canonicalName">PI3K (activate) RAS</data>
+        </edge>
+        <edge source="1442" target="1454">
+            <data key="SUID">1780</data>
+            <data key="shared name">BRAF (activate) RAS</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">BRAF (activate) RAS</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">BRAF (activate) RAS</data>
+            <data key="canonicalName">BRAF (activate) RAS</data>
+        </edge>
+        <edge source="1442" target="1442">
+            <data key="SUID">1776</data>
+            <data key="shared name">RAS (activate) RAS</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">RAS (activate) RAS</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">RAS (activate) RAS</data>
+            <data key="canonicalName">RAS (activate) RAS</data>
+        </edge>
+        <edge source="1438" target="1410">
+            <data key="SUID">2172</data>
+            <data key="shared name">Mitotic_Catastrophe (activate) DSB_SSB</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Mitotic_Catastrophe (activate) DSB_SSB</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Mitotic_Catastrophe (activate) DSB_SSB</data>
+            <data key="canonicalName">Mitotic_Catastrophe (activate) DSB_SSB</data>
+        </edge>
+        <edge source="1438" target="1466">
+            <data key="SUID">2168</data>
+            <data key="shared name">p38 (activate) DSB_SSB</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">p38 (activate) DSB_SSB</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">p38 (activate) DSB_SSB</data>
+            <data key="canonicalName">p38 (activate) DSB_SSB</data>
+        </edge>
+        <edge source="1438" target="1438">
+            <data key="SUID">2164</data>
+            <data key="shared name">DSB_SSB (activate) DSB_SSB</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">DSB_SSB (activate) DSB_SSB</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">DSB_SSB (activate) DSB_SSB</data>
+            <data key="canonicalName">DSB_SSB (activate) DSB_SSB</data>
+        </edge>
+        <edge source="1438" target="1402">
+            <data key="SUID">2160</data>
+            <data key="shared name">ATM (activate) DSB_SSB</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">ATM (activate) DSB_SSB</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">ATM (activate) DSB_SSB</data>
+            <data key="canonicalName">ATM (activate) DSB_SSB</data>
+        </edge>
+        <edge source="1438" target="1398">
+            <data key="SUID">2156</data>
+            <data key="shared name">ATR (activate) DSB_SSB</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">ATR (activate) DSB_SSB</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">ATR (activate) DSB_SSB</data>
+            <data key="canonicalName">ATR (activate) DSB_SSB</data>
+        </edge>
+        <edge source="1434" target="1574">
+            <data key="SUID">2000</data>
+            <data key="shared name">SMAD4 (activate) TGFb</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">SMAD4 (activate) TGFb</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">SMAD4 (activate) TGFb</data>
+            <data key="canonicalName">SMAD4 (activate) TGFb</data>
+        </edge>
+        <edge source="1434" target="1546">
+            <data key="SUID">1996</data>
+            <data key="shared name">PI3K (activate) TGFb</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">PI3K (activate) TGFb</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">PI3K (activate) TGFb</data>
+            <data key="canonicalName">PI3K (activate) TGFb</data>
+        </edge>
+        <edge source="1434" target="1538">
+            <data key="SUID">1992</data>
+            <data key="shared name">STAT3 (activate) TGFb</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">STAT3 (activate) TGFb</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">STAT3 (activate) TGFb</data>
+            <data key="canonicalName">STAT3 (activate) TGFb</data>
+        </edge>
+        <edge source="1434" target="1474">
+            <data key="SUID">1988</data>
+            <data key="shared name">TAK1 (activate) TGFb</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">TAK1 (activate) TGFb</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">TAK1 (activate) TGFb</data>
+            <data key="canonicalName">TAK1 (activate) TGFb</data>
+        </edge>
+        <edge source="1430" target="1446">
+            <data key="SUID">1680</data>
+            <data key="shared name">EGFR (activate) EGF</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">EGFR (activate) EGF</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">EGFR (activate) EGF</data>
+            <data key="canonicalName">EGFR (activate) EGF</data>
+        </edge>
+        <edge source="1426" target="1442">
+            <data key="SUID">2180</data>
+            <data key="shared name">RAS (activate) FGFR</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">RAS (activate) FGFR</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">RAS (activate) FGFR</data>
+            <data key="canonicalName">RAS (activate) FGFR</data>
+        </edge>
+        <edge source="1418" target="1502">
+            <data key="SUID">2240</data>
+            <data key="shared name">MYC (activate) LEF1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">MYC (activate) LEF1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">MYC (activate) LEF1</data>
+            <data key="canonicalName">MYC (activate) LEF1</data>
+        </edge>
+        <edge source="1418" target="1422">
+            <data key="SUID">2236</data>
+            <data key="shared name">Survival (activate) LEF1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Survival (activate) LEF1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Survival (activate) LEF1</data>
+            <data key="canonicalName">Survival (activate) LEF1</data>
+        </edge>
+        <edge source="1414" target="1422">
+            <data key="SUID">2012</data>
+            <data key="shared name">Survival (activate) NFkB</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Survival (activate) NFkB</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Survival (activate) NFkB</data>
+            <data key="canonicalName">Survival (activate) NFkB</data>
+        </edge>
+        <edge source="1406" target="1410">
+            <data key="SUID">1708</data>
+            <data key="shared name">Mitotic_Catastrophe (activate) RS</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Mitotic_Catastrophe (activate) RS</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Mitotic_Catastrophe (activate) RS</data>
+            <data key="canonicalName">Mitotic_Catastrophe (activate) RS</data>
+        </edge>
+        <edge source="1402" target="1490">
+            <data key="SUID">1844</data>
+            <data key="shared name">CHEK2 (activate) ATM</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CHEK2 (activate) ATM</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CHEK2 (activate) ATM</data>
+            <data key="canonicalName">CHEK2 (activate) ATM</data>
+        </edge>
+        <edge source="1398" target="1478">
+            <data key="SUID">2184</data>
+            <data key="shared name">CHEK1 (activate) ATR</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CHEK1 (activate) ATR</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CHEK1 (activate) ATR</data>
+            <data key="canonicalName">CHEK1 (activate) ATR</data>
+        </edge>
+        <edge source="1390" target="1422">
+            <data key="SUID">1856</data>
+            <data key="shared name">Survival (activate) BCL2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Survival (activate) BCL2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Survival (activate) BCL2</data>
+            <data key="canonicalName">Survival (activate) BCL2</data>
+        </edge>
+        <edge source="1390" target="1394">
+            <data key="SUID">1852</data>
+            <data key="shared name">Apoptosis (inhibit) BCL2</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">Apoptosis (inhibit) BCL2</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">Apoptosis (inhibit) BCL2</data>
+            <data key="canonicalName">Apoptosis (inhibit) BCL2</data>
+        </edge>
+        <edge source="1386" target="1562">
+            <data key="SUID">1692</data>
+            <data key="shared name">IkB (activate) CASP3</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">IkB (activate) CASP3</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">IkB (activate) CASP3</data>
+            <data key="canonicalName">IkB (activate) CASP3</data>
+        </edge>
+        <edge source="1386" target="1518">
+            <data key="SUID">1688</data>
+            <data key="shared name">AKT (inhibit) CASP3</data>
+            <data key="shared interaction">inhibit</data>
+            <data key="name">AKT (inhibit) CASP3</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibit</data>
+            <data key="XGMML Edge Label">AKT (inhibit) CASP3</data>
+            <data key="canonicalName">AKT (inhibit) CASP3</data>
+        </edge>
+        <edge source="1386" target="1394">
+            <data key="SUID">1684</data>
+            <data key="shared name">Apoptosis (activate) CASP3</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Apoptosis (activate) CASP3</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Apoptosis (activate) CASP3</data>
+            <data key="canonicalName">Apoptosis (activate) CASP3</data>
+        </edge>
+        <edge source="1378" target="1368">
+            <data key="SUID">1952</data>
+            <data key="shared name">CDK1 (activate) CDK2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDK1 (activate) CDK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDK1 (activate) CDK2</data>
+            <data key="canonicalName">CDK1 (activate) CDK2</data>
+        </edge>
+        <edge source="1378" target="1438">
+            <data key="SUID">1948</data>
+            <data key="shared name">DSB_SSB (activate) CDK2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">DSB_SSB (activate) CDK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">DSB_SSB (activate) CDK2</data>
+            <data key="canonicalName">DSB_SSB (activate) CDK2</data>
+        </edge>
+        <edge source="1378" target="1410">
+            <data key="SUID">1944</data>
+            <data key="shared name">Mitotic_Catastrophe (activate) CDK2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Mitotic_Catastrophe (activate) CDK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Mitotic_Catastrophe (activate) CDK2</data>
+            <data key="canonicalName">Mitotic_Catastrophe (activate) CDK2</data>
+        </edge>
+        <edge source="1378" target="1382">
+            <data key="SUID">1940</data>
+            <data key="shared name">Proliferation (activate) CDK2</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Proliferation (activate) CDK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Proliferation (activate) CDK2</data>
+            <data key="canonicalName">Proliferation (activate) CDK2</data>
+        </edge>
+        <edge source="1368" target="1486">
+            <data key="SUID">1704</data>
+            <data key="shared name">CDC25B_C (activate) CDK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">CDC25B_C (activate) CDK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">CDC25B_C (activate) CDK1</data>
+            <data key="canonicalName">CDC25B_C (activate) CDK1</data>
+        </edge>
+        <edge source="1368" target="1410">
+            <data key="SUID">1700</data>
+            <data key="shared name">Mitotic_Catastrophe (activate) CDK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Mitotic_Catastrophe (activate) CDK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Mitotic_Catastrophe (activate) CDK1</data>
+            <data key="canonicalName">Mitotic_Catastrophe (activate) CDK1</data>
+        </edge>
+        <edge source="1368" target="1382">
+            <data key="SUID">1696</data>
+            <data key="shared name">Proliferation (activate) CDK1</data>
+            <data key="shared interaction">activate</data>
+            <data key="name">Proliferation (activate) CDK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">activate</data>
+            <data key="XGMML Edge Label">Proliferation (activate) CDK1</data>
+            <data key="canonicalName">Proliferation (activate) CDK1</data>
+        </edge>
+    </graph>
+</graphml>
