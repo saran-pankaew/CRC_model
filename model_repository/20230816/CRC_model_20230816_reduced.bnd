@@ -35,19 +35,13 @@ Node ATM {
 }
 
 Node Mitotic_Catastrophe {
-  logic = (DSB & Anaphase);
+  logic = (Anaphase & Non_rep_dam);
   rate_up = @logic ? $u_Mitotic_Catastrophe : 0;
   rate_down = @logic ? 0 : $d_Mitotic_Catastrophe;
 }
 
-Node NFkB {
-  logic = (!AKT & !GSK3B & !CHUK & NLK & !IkB) | (!AKT & GSK3B & !CHUK & !IkB) | (AKT & !CHUK & !IkB);
-  rate_up = @logic ? $u_NFkB : 0;
-  rate_down = @logic ? 0 : $d_NFkB;
-}
-
 Node LEF1 {
-  logic = (!NLK & bCAT);
+  logic = (bCAT);
   rate_up = @logic ? $u_LEF1 : 0;
   rate_down = @logic ? 0 : $d_LEF1;
 }
@@ -65,7 +59,7 @@ Node TGFb {
 }
 
 Node DSB {
-  logic = (!CDK2 & !DSB & SSB_RS & !BRCA) | (!CDK2 & DSB & !BRCA) | (CDK2 & !BRCA);
+  logic = (!CDK2 & !DSB & !TP53 & SSB_RS & !BRCA) | (!CDK2 & DSB & !TP53 & !BRCA) | (CDK2 & !TP53 & !BRCA);
   rate_up = @logic ? $u_DSB : 0;
   rate_down = @logic ? 0 : $d_DSB;
 }
@@ -101,7 +95,7 @@ Node MEK_1_2 {
 }
 
 Node p38 {
-  logic = (DSB & !MEK_1_2 & TAK1 & !DUSP1) | (DSB & MEK_1_2 & !DUSP1);
+  logic = (DSB & MEK_1_2 & !DUSP1);
   rate_up = @logic ? $u_p38 : 0;
   rate_down = @logic ? 0 : $d_p38;
 }
@@ -110,12 +104,6 @@ Node TP53 {
   logic = (!CHEK1 & CHEK2 & !MDM2) | (CHEK1 & !MDM2);
   rate_up = @logic ? $u_TP53 : 0;
   rate_down = @logic ? 0 : $d_TP53;
-}
-
-Node TAK1 {
-  logic = (!TGFb & !Wnt & TRAF6) | (!TGFb & Wnt) | (TGFb);
-  rate_up = @logic ? $u_TAK1 : 0;
-  rate_down = @logic ? 0 : $d_TAK1;
 }
 
 Node CHEK1 {
@@ -149,7 +137,7 @@ Node CDC25A {
 }
 
 Node CDK4_6 {
-  logic = (!NFkB & !p38 & !MYC & STAT3) | (!NFkB & !p38 & MYC) | (!NFkB & p38) | (NFkB);
+  logic = (!p38 & !MYC & STAT3) | (!p38 & MYC) | (p38);
   rate_up = @logic ? $u_CDK4_6 : 0;
   rate_down = @logic ? 0 : $d_CDK4_6;
 }
@@ -167,15 +155,14 @@ Node Wnt {
 }
 
 Node JNK {
-  logic = (!ERK_1_2 & !p38 & !TAK1 & Wnt) | (!ERK_1_2 & !p38 & TAK1) | (ERK_1_2 & !p38);
+  logic = (!ERK_1_2 & !p38 & Wnt) | (ERK_1_2 & !p38);
   rate_up = @logic ? $u_JNK : 0;
   rate_down = @logic ? 0 : $d_JNK;
 }
 
 Node AKT {
-  logic = (!TP53 & PI3K & MTORC2);
-  rate_up = @logic ? $u_AKT : 0;
-  rate_down = @logic ? 0 : $d_AKT;
+  rate_up = 0;
+  rate_down = $u_AKT;
 }
 
 Node MTORC1 {
@@ -196,12 +183,6 @@ Node GSK3B {
   rate_down = @logic ? 0 : $d_GSK3B;
 }
 
-Node CHUK {
-  logic = (!TAK1) | (TAK1 & AKT);
-  rate_up = @logic ? $u_CHUK : 0;
-  rate_down = @logic ? 0 : $d_CHUK;
-}
-
 Node STAT3 {
   logic = (!TGFb & !JNK & !MTORC1 & JAK) | (!TGFb & !JNK & MTORC1) | (!TGFb & JNK) | (TGFb);
   rate_up = @logic ? $u_STAT3 : 0;
@@ -215,7 +196,7 @@ Node S6 {
 }
 
 Node PI3K {
-  logic = (!TGFb & !RAS & !EGFR & IFNAR) | (!TGFb & !RAS & EGFR) | (!TGFb & RAS) | (TGFb);
+  logic = (!TGFb & RAS & !EGFR & IFNAR) | (!TGFb & RAS & EGFR) | (TGFb & RAS);
   rate_up = @logic ? $u_PI3K : 0;
   rate_down = @logic ? 0 : $d_PI3K;
 }
@@ -230,24 +211,6 @@ Node IFNAR {
   logic = (IFNA);
   rate_up = @logic ? $u_IFNAR : 0;
   rate_down = @logic ? 0 : $d_IFNAR;
-}
-
-Node NLK {
-  logic = (TAK1);
-  rate_up = @logic ? $u_NLK : 0;
-  rate_down = @logic ? 0 : $d_NLK;
-}
-
-Node IkB {
-  logic = (!IkB & !IKK) | (IkB);
-  rate_up = @logic ? $u_IkB : 0;
-  rate_down = @logic ? 0 : $d_IkB;
-}
-
-Node TRAF6 {
-  logic = (!TNF & IRAK4) | (TNF);
-  rate_up = @logic ? $u_TRAF6 : 0;
-  rate_down = @logic ? 0 : $d_TRAF6;
 }
 
 Node CDC6 {
@@ -268,24 +231,6 @@ Node JUN {
   rate_down = @logic ? 0 : $d_JUN;
 }
 
-Node TNF {
-  logic = (TNF);
-  rate_up = @logic ? $u_TNF : 0;
-  rate_down = @logic ? 0 : $d_TNF;
-}
-
-Node IRAK4 {
-  logic = (MYD88);
-  rate_up = @logic ? $u_IRAK4 : 0;
-  rate_down = @logic ? 0 : $d_IRAK4;
-}
-
-Node IKK {
-  logic = (TAK1);
-  rate_up = @logic ? $u_IKK : 0;
-  rate_down = @logic ? 0 : $d_IKK;
-}
-
 Node JAK {
   logic = (IFNAR);
   rate_up = @logic ? $u_JAK : 0;
@@ -302,18 +247,6 @@ Node IFNA {
   logic = (IFNA);
   rate_up = @logic ? $u_IFNA : 0;
   rate_down = @logic ? 0 : $d_IFNA;
-}
-
-Node IL1R1 {
-  logic = (IL1R1);
-  rate_up = @logic ? $u_IL1R1 : 0;
-  rate_down = @logic ? 0 : $d_IL1R1;
-}
-
-Node MYD88 {
-  logic = (IL1R1);
-  rate_up = @logic ? $u_MYD88 : 0;
-  rate_down = @logic ? 0 : $d_MYD88;
 }
 
 Node PLK1 {
@@ -370,7 +303,7 @@ Node DUSP1 {
 }
 
 Node Protein_synthesis {
-  logic = (!MYC & S6) | (MYC);
+  logic = (S6 & !EIF4EBP1);
   rate_up = @logic ? $u_Protein_synthesis : 0;
   rate_down = @logic ? 0 : $d_Protein_synthesis;
 }
@@ -409,6 +342,12 @@ Node RAD51 {
   logic = (!DSB & SSB_RS) | (DSB);
   rate_up = @logic ? $u_RAD51 : 0;
   rate_down = @logic ? 0 : $d_RAD51;
+}
+
+Node Non_rep_dam {
+  logic = (DSB & !TP53);
+  rate_up = @logic ? $u_Non_rep_dam : 0;
+  rate_down = @logic ? 0 : $d_Non_rep_dam;
 }
 
 Node RPA {
