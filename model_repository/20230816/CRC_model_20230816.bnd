@@ -65,7 +65,7 @@ Node TGFb {
 }
 
 Node DSB {
-  logic = (!CDK2 & !DSB & SSB_RS & !BRCA) | (!CDK2 & DSB & !BRCA) | (CDK2 & !BRCA);
+  logic = (!CDK2 & !DSB & !SSB_RS & DNA_damage_agent & !BRCA) | (!CDK2 & !DSB & SSB_RS & !BRCA) | (!CDK2 & DSB & !BRCA) | (CDK2 & !BRCA);
   rate_up = @logic ? $u_DSB : 0;
   rate_down = @logic ? 0 : $d_DSB;
 }
@@ -406,7 +406,7 @@ Node PARP {
 }
 
 Node RAD51 {
-  logic = (!DSB & SSB_RS) | (DSB);
+  logic = (!DSB & TP53 & SSB_RS) | (DSB & TP53);
   rate_up = @logic ? $u_RAD51 : 0;
   rate_down = @logic ? 0 : $d_RAD51;
 }
