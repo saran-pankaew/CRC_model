@@ -454,7 +454,7 @@ Node DYNLL1 {
 }
 
 Node TP53BP1 {
-  logic = (RAD51 & DYNLL1);
+  logic = (DYNLL1);
   rate_up = @logic ? $u_TP53BP1 : 0;
   rate_down = @logic ? 0 : $d_TP53BP1;
 }
