@@ -1,5 +1,5 @@
 Node CDK1 {
-  logic = (CDK2 & !CDC25B_C & !CDC25A & !PKMYT1 & !Wee1 & CDC20) | (CDK2 & !CDC25B_C & CDC25A & !PKMYT1 & !Wee1) | (CDK2 & CDC25B_C & !PKMYT1 & !Wee1);
+  logic = (CDK2 & !CDC25B_C & CDC25A & !PKMYT1 & !Wee1) | (CDK2 & CDC25B_C & !PKMYT1 & !Wee1);
   rate_up = @logic ? $u_CDK1 : 0;
   rate_down = @logic ? 0 : $d_CDK1;
 }
@@ -35,7 +35,7 @@ Node ATM {
 }
 
 Node Replication_Catastrophe {
-  logic = (CDK2 & DSB);
+  logic = (DSB);
   rate_up = @logic ? $u_Replication_Catastrophe : 0;
   rate_down = @logic ? 0 : $d_Replication_Catastrophe;
 }
@@ -65,7 +65,7 @@ Node TGFb {
 }
 
 Node DSB {
-  logic = (!SSB_RS & DNA_damage_agent & !BRCA & !TP53BP1) | (SSB_RS & !BRCA & !TP53BP1);
+  logic = (!SSB_RS & DNA_damage_agent & !PARP & !BRCA) | (SSB_RS & !PARP & !BRCA);
   rate_up = @logic ? $u_DSB : 0;
   rate_down = @logic ? 0 : $d_DSB;
 }
@@ -107,7 +107,7 @@ Node p38 {
 }
 
 Node TP53 {
-  logic = (!ATM & !CHEK1 & CHEK2 & !MDM2) | (!ATM & CHEK1 & !MDM2) | (ATM & !MDM2);
+  logic = (!ATM & !CHEK1 & !CHEK2 & !MDM2 & CHEK1_PLAU) | (!ATM & !CHEK1 & CHEK2 & !MDM2) | (!ATM & CHEK1 & !MDM2) | (ATM & !MDM2);
   rate_up = @logic ? $u_TP53 : 0;
   rate_down = @logic ? 0 : $d_TP53;
 }
@@ -131,7 +131,7 @@ Node MK2 {
 }
 
 Node CDC25B_C {
-  logic = (CDK1 & !CHEK1 & !MK2);
+  logic = (CDK1 & !CHEK1 & !MK2) | (CDK1 & CHEK1 & !MK2 & !CHEK1_PLAU);
   rate_up = @logic ? $u_CDC25B_C : 0;
   rate_down = @logic ? 0 : $d_CDC25B_C;
 }
@@ -143,7 +143,7 @@ Node CHEK2 {
 }
 
 Node CDC25A {
-  logic = (!CHEK1 & !MK2) | (CHEK1 & !MK2 & !CHEK2);
+  logic = (!CHEK1 & !MK2) | (CHEK1 & !MK2 & !CHEK2) | (CHEK1 & !MK2 & CHEK2 & !CHEK1_PLAU);
   rate_up = @logic ? $u_CDC25A : 0;
   rate_down = @logic ? 0 : $d_CDC25A;
 }
@@ -329,7 +329,7 @@ Node PKMYT1 {
 }
 
 Node Wee1 {
-  logic = (!CDK1 & CHEK1 & !PLK1);
+  logic = (!CDK1 & !CHEK1 & !PLK1 & CHEK1_PLAU) | (!CDK1 & CHEK1 & !PLK1);
   rate_up = @logic ? $u_Wee1 : 0;
   rate_down = @logic ? 0 : $d_Wee1;
 }
@@ -406,7 +406,7 @@ Node PARP {
 }
 
 Node RAD51 {
-  logic = (!DSB & !TP53 & CHEK1 & SSB_RS) | (!DSB & TP53 & SSB_RS) | (DSB & !TP53 & CHEK1) | (DSB & TP53);
+  logic = (!DSB & !TP53 & !CHEK1 & SSB_RS & CHEK1_PLAU) | (!DSB & !TP53 & CHEK1 & SSB_RS) | (!DSB & TP53 & SSB_RS) | (DSB & !TP53 & !CHEK1 & CHEK1_PLAU) | (DSB & !TP53 & CHEK1) | (DSB & TP53);
   rate_up = @logic ? $u_RAD51 : 0;
   rate_down = @logic ? 0 : $d_RAD51;
 }
@@ -441,21 +441,15 @@ Node Mitotic_Catastrophe {
   rate_down = @logic ? 0 : $d_Mitotic_Catastrophe;
 }
 
-Node CDC20 {
-  logic = (CDC20);
-  rate_up = @logic ? $u_CDC20 : 0;
-  rate_down = @logic ? 0 : $d_CDC20;
+Node PLAU {
+  logic = (PLAU);
+  rate_up = @logic ? $u_PLAU : 0;
+  rate_down = @logic ? 0 : $d_PLAU;
 }
 
-Node DYNLL1 {
-  logic = (DYNLL1);
-  rate_up = @logic ? $u_DYNLL1 : 0;
-  rate_down = @logic ? 0 : $d_DYNLL1;
-}
-
-Node TP53BP1 {
-  logic = (DYNLL1);
-  rate_up = @logic ? $u_TP53BP1 : 0;
-  rate_down = @logic ? 0 : $d_TP53BP1;
+Node CHEK1_PLAU {
+  logic = (PLAU);
+  rate_up = @logic ? $u_CHEK1_PLAU : 0;
+  rate_down = @logic ? 0 : $d_CHEK1_PLAU;
 }
 
