@@ -65,7 +65,7 @@ Node TGFb {
 }
 
 Node DSB {
-  logic = (!SSB_RS & DNA_damage_agent & !PARP & !BRCA) | (SSB_RS & !PARP & !BRCA);
+  logic = (!CDK2 & !SSB_RS & DNA_damage_agent & !PARP & !BRCA) | (!CDK2 & SSB_RS & !PARP & !BRCA) | (CDK2 & !PARP & !BRCA);
   rate_up = @logic ? $u_DSB : 0;
   rate_down = @logic ? 0 : $d_DSB;
 }
@@ -382,7 +382,7 @@ Node EIF4EBP1 {
 }
 
 Node SSB_RS {
-  logic = (!CDC6 & !SSB_RS & DNA_damage_agent & !PARP & !GADD45) | (!CDC6 & SSB_RS & !PARP & !GADD45) | (CDC6 & !PARP & !GADD45);
+  logic = (!CDK2 & !CDC6 & !SSB_RS & DNA_damage_agent & !PARP & !GADD45) | (!CDK2 & !CDC6 & SSB_RS & !PARP & !GADD45) | (!CDK2 & CDC6 & !PARP & !GADD45) | (CDK2 & !PARP & !GADD45);
   rate_up = @logic ? $u_SSB_RS : 0;
   rate_down = @logic ? 0 : $d_SSB_RS;
 }
@@ -442,19 +442,19 @@ Node Mitotic_Catastrophe {
 }
 
 Node CENPF {
-  logic = (CDK1);
+  logic = (CENPF);
   rate_up = @logic ? $u_CENPF : 0;
   rate_down = @logic ? 0 : $d_CENPF;
 }
 
 Node MKi67 {
-  logic = (CDK2);
+  logic = (MKi67);
   rate_up = @logic ? $u_MKi67 : 0;
   rate_down = @logic ? 0 : $d_MKi67;
 }
 
 Node TOP2A {
-  logic = (CDK4_6);
+  logic = (TOP2A);
   rate_up = @logic ? $u_TOP2A : 0;
   rate_down = @logic ? 0 : $d_TOP2A;
 }
@@ -469,5 +469,15 @@ Node GADD45 {
   logic = (!TP53 & SMAD4) | (TP53);
   rate_up = @logic ? $u_GADD45 : 0;
   rate_down = @logic ? 0 : $d_GADD45;
+}
+
+Node GAS5 {
+  rate_up = 0;
+  rate_down = $u_GAS5;
+}
+
+Node Misfold_protein {
+  rate_up = 0;
+  rate_down = $u_Misfold_protein;
 }
 
