@@ -16,12 +16,6 @@ Node Proliferation {
   rate_down = @logic ? 0 : $d_Proliferation;
 }
 
-Node Apoptosis {
-  logic = (CASP2);
-  rate_up = @logic ? $u_Apoptosis : 0;
-  rate_down = @logic ? 0 : $d_Apoptosis;
-}
-
 Node ATR {
   logic = (!ATM & SSB_RS) | (ATM);
   rate_up = @logic ? $u_ATR : 0;
@@ -357,12 +351,6 @@ Node Anaphase {
   rate_down = @logic ? 0 : $d_Anaphase;
 }
 
-Node CASP2 {
-  logic = (!Replication_Catastrophe & Mitotic_Catastrophe) | (Replication_Catastrophe);
-  rate_up = @logic ? $u_CASP2 : 0;
-  rate_down = @logic ? 0 : $d_CASP2;
-}
-
 Node DUSP1 {
   logic = (p38);
   rate_up = @logic ? $u_DUSP1 : 0;
@@ -466,18 +454,14 @@ Node GADD34 {
 }
 
 Node GADD45 {
-  logic = (!TP53 & SMAD4) | (TP53);
+  logic = (!TP53 & !AKT & SMAD4) | (!TP53 & AKT) | (TP53);
   rate_up = @logic ? $u_GADD45 : 0;
   rate_down = @logic ? 0 : $d_GADD45;
 }
 
-Node GAS5 {
-  rate_up = 0;
-  rate_down = $u_GAS5;
-}
-
-Node Misfold_protein {
-  rate_up = 0;
-  rate_down = $u_Misfold_protein;
+Node Apoptosis {
+  logic = (!Replication_Catastrophe & Mitotic_Catastrophe) | (Replication_Catastrophe);
+  rate_up = @logic ? $u_Apoptosis : 0;
+  rate_down = @logic ? 0 : $d_Apoptosis;
 }
 
